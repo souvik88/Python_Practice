@@ -1,3 +1,4 @@
+'''
 import random
 verbs = ['Leverage', 'Sync', 'Target']
 adjectives = ['Freemium', 'Cloud-based', 'API-based']
@@ -7,3 +8,6 @@ adjective = random.choice(adjectives)
 noun = random.choice(nouns)
 phrase = verb + ' ' + adjective + ' ' + noun
 print(phrase)
+'''
+sum = 50 + 50
+print(sum)
