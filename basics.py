@@ -9,5 +9,7 @@ noun = random.choice(nouns)
 phrase = verb + ' ' + adjective + ' ' + noun
 print(phrase)
 '''
+"""
 sum = 50 + 50
 print(sum)
+"""
