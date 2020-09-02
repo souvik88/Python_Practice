@@ -40,9 +40,11 @@ except FileNotFoundError:
 print(text)
 '''
 
-sentence = ["Writing a file using Python code"]
+words = ["Writing a file using Python code"]
 with open("sentence.txt", "w") as f:
-    for s in sentence:
-        f.write(s)
-
-print(sentence)
+    for w in words:
+        f.write(w)
+with open("sentence.txt", "a") as f:
+    print(30*"=", file=f)
+    print("End of text file.", file=f)
+print(words)
