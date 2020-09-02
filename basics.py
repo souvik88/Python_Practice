@@ -40,3 +40,9 @@ except FileNotFoundError:
 print(text)
 '''
 
+sentence = ["Writing a file using Python code"]
+with open("sentence.txt", "w") as f:
+    for s in sentence:
+        f.write(s)
+
+print(sentence)
