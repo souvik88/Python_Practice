@@ -29,4 +29,14 @@ myfile_read = myfile.read()
 myfile.close()
 print(myfile_read)
 '''
+# try ~ except to check if file exist
+'''
+try:
+	with open("text.txt") as f:
+		text = f.read()
+except FileNotFoundError:
+	text = None
+
+print(text)
+'''
 
