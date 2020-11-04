@@ -39,7 +39,7 @@ except FileNotFoundError:
 
 print(text)
 '''
-
+'''
 words = ["Writing a file using Python code"]
 with open("sentence.txt", "w") as f:
     for w in words:
@@ -48,3 +48,5 @@ with open("sentence.txt", "a") as f:
     print(30*"=", file=f)
     print("End of text file.", file=f)
 print(words)
+'''
+
